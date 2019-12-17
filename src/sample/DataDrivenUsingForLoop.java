@@ -39,7 +39,7 @@ public class DataDrivenUsingForLoop {
 					
 					driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 					
-					//driver.get("https://www.kiposcollective.com/#/");
+					driver.get("https://www.kiposcollective.com/#/");
 					Thread.sleep(2000);
 					
 					
